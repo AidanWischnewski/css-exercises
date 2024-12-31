@@ -24,3 +24,26 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My solution */
+.title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.flex-wrapper{
+  /* border: solid black ; */
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+
+}
+.media-container{
+  /* border: solid gold ; */
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+}
